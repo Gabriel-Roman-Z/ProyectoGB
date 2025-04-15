@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Admin</title>
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+
+<body>
+
+
+    <div class="form-container">
+        <h1>Formulario de Rifa</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="pagado" name="pagado" required>
+                <label for="pagado" id="condicion">Confirmo que cliente a pagado la totalidad del boleto por $80 pesos y yo ${variable} soy responsable de entregar el dinero a quien corresponde.</label>
+            </div>
+
+            <button type="submit">Participar</button>
+        </form>
+
+
+
+
+
+
+</body>
+
+</html>
